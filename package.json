@@ -1,0 +1,20 @@
+{
+  "name": "snake-deluxe",
+  "version": "1.0.0",
+  "description": "華麗貪食蛇 - 畫面精緻、蛇身華麗的貪食蛇遊戲",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Using www folder directly\"",
+    "sync": "npx cap sync android",
+    "android": "npx cap open android",
+    "build:apk": "cd android && ./gradlew assembleDebug"
+  },
+  "keywords": ["snake", "game", "capacitor", "android"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0"
+  }
+}

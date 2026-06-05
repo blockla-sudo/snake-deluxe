@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SnakeDeluxe</string>
+    <string name="title_activity_main">SnakeDeluxe</string>
+    <string name="package_name">com.snakedeluxe.app</string>
+    <string name="custom_url_scheme">com.snakedeluxe.app</string>
+</resources>
